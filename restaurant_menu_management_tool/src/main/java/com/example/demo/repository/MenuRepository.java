@@ -10,5 +10,5 @@ import com.example.demo.model.MenuModel;
 @Repository
 public interface MenuRepository extends JpaRepository<MenuModel,Integer> {
 
-	//List<MenuModel> findByName(String title);
+	List<MenuModel> findByTitle(String title);
 }
