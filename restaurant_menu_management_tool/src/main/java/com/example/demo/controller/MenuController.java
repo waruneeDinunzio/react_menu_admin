@@ -28,7 +28,8 @@ public class MenuController {
 	
 	//get all menu
 	@GetMapping("/allmenus")
-	public List<MenuModel> getAllMenu(){
+	
+	public List<MenuModel> getAllMenus(){
 		return menuRepo.findAll();
 	}
 	
@@ -66,6 +67,9 @@ public class MenuController {
 		MenuModel s= menuRepo.findById(id).orElseThrow(() ->  new ResourceNotFoundException("Menu not found"));
 	    s.setTitle(menu.getTitle());
 	    s.setCategory(menu.getCategory());
+	    s.setPrice(menu.getPrice());
+	    s.setImage(menu.getImage());
+	    s.setDescription(menu.getDescription());
 	    MenuModel updatedMenu=menuRepo.save(s);
 	    return ResponseEntity.ok(updatedMenu);
 	}
