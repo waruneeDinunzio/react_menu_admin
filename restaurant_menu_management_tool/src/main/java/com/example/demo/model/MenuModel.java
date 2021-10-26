@@ -22,7 +22,7 @@ public class MenuModel {
 	@Column(name= "price")
 	private float price;
 	@Column(name="image")
-	private byte[] image;
+	private String image;
 	@Column(name="description")
 	private String description;
 	
@@ -32,7 +32,7 @@ public class MenuModel {
     	
     }
 	
-	public MenuModel(int id, String title, String category, float price, byte[] image, String description) {
+	public MenuModel(int id, String title, String category, float price, String image, String description) {
 		super();
 		this.id = id;
 		this.title = title;
@@ -70,10 +70,10 @@ public class MenuModel {
 		this.price = price;
 	}
 	
-	public byte[] getImage() {
+	public String getImage() {
 		return image;
 	}
-	public void setImage(byte[] image) {
+	public void setImage(String image) {
 		this.image = image;
 	}
 	
