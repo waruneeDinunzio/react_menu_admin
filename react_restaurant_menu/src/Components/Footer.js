@@ -4,7 +4,7 @@ const Footer = () => {
     return (
       <div id="footer">
             
-      <div>
+      <div class="col-lg-4 col-md-6 mb-2">
         
           <h5 class="mb-1" >OPENING HOURS:</h5>
           <table class="table">
@@ -21,8 +21,17 @@ const Footer = () => {
             </tbody>
           </table>
       </div>
-      <SocialMedia />
-      <div>
+
+      <div class="col-lg-3 col-md-6 mb-2">
+        <SocialMedia />
+          <div className="footer-copyright text-center p-4">© 2021 Copyright:
+            <a href=""> josiya.com</a>
+           </div>
+      </div>
+
+      {/* <SocialMedia /> */}
+
+      <div class="col-lg-3 col-md-6 mb-2">
           {/* <h4>DELIVERY HOURS:</h4>
           <p>Mon: Pick Up Only</p>
           <p>Tue-Sat: 11:30 am - 9:00 pm</p>
@@ -32,10 +41,10 @@ const Footer = () => {
             <tbody>
              <tr>
                 <td>Mon: Pick Up Only</td>
-                <td>Tue-Sat: 11:30 am - 9:00 pm</td>
+                
                </tr>
                <tr>
-                 {/* <td>Sat - Sun:</td> */}
+               <td>Tue-Sat: 11:30 am - 9:00 pm</td>
                  <td>Sun: 4:00 - 9:00 pm</td>
               </tr>
              </tbody>
