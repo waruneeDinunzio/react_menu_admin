@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Restaurant menu management tool][product-screenshot]](Screen_shot_app1.png)
 This is a Capstone project, a final project for Software Engineer course at Per Scholas. It is a full stack application using React as a View layer, Spring boot for backend and connected with database using MySQL. This responsive Spring boot application based on MVC architecture. The application implement all CRUD operations, utilizing Entities, Controller classes, and Interfaces.
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description` -->
@@ -80,13 +80,13 @@ This is a Capstone project, a final project for Software Engineer course at Per 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+<!-- ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm install
   ```sh
   npm install npm@latest -g
-  ```
+  ``` -->
 
 ### Installation
 
@@ -111,23 +111,23 @@ This is an example of how to list things you need to use the software and how to
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+<!-- ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Features
 
-- [] Create user log in
-- [] Search food image from third party API and save for update menu image
-- [] Renden update menu on menu page
-- [] Order online
+- [ ] Create user log in
+- [ ] Search food image from third party API and save for update menu image
+- [ ] Renden update menu on menu page
+- [ ] Order online
 
 <!-- See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues). -->
 
@@ -169,8 +169,6 @@ Warunee Dinunzio - [linkedIn](https://www.linkedin.com/in/warunee-dinunzio/) - d
 
 Project Link: [https://github.com/waruneeDinunzio/react_menu_admin](https://github.com/waruneeDinunzio/react_menu_admin)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -178,3 +176,5 @@ Project Link: [https://github.com/waruneeDinunzio/react_menu_admin](https://gith
 Thank you Per Scholas for creating this full stack Software Engineer course and gave me this oppunity.
 Thank you all instructor: Tory, Sonia, Teo, Aveline, Salah, Jade, Manara, ... 
 Thank you my fellow cohor 12 and 13. You're all awesome.
+
+<p align="right">(<a href="#top">back to top</a>)</p>

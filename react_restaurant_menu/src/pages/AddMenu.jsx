@@ -91,7 +91,7 @@ class AddMenu extends Component {
                 <div>
                    <div className="row">
                       <div className="">
-                          <h3 className="text-center">View Menu Details</h3>
+                          <h3 className="text-center">Add Menu Item</h3>
                           <div className="card-body">
                               <form>  
                                   {/* <div className="form-group">
