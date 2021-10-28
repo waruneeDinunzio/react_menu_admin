@@ -39,8 +39,8 @@ body {
   h3 {
     font-size: 1.75rem;
   }
-  h4 {
-    font-size: 1rem;
+  h4{
+    font-size: 1.25rem;
   }
   body {
     font-size: 1rem;
@@ -73,7 +73,7 @@ body {
   list-style: none;
   list-style-type: none;
 }
-.nav-bar ul li {
+.nav-bar nav ul li {
   float: left;
   color: black;
   text-align: center;

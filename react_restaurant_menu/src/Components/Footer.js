@@ -2,12 +2,12 @@ import React from 'react';
 import SocialMedia from '../pages/SocialMedia';
 const Footer = () => {
     return (
-      <div id="footer">
+      <div className= "row" id="footer" >
             
-      <div class="col-lg-4 col-md-6 mb-2">
+      <div className="col-lg-4 mb-2">
         
-          <h5 class="mb-1" >OPENING HOURS:</h5>
-          <table class="table">
+          <h5 className="mb-1" >OPENING HOURS:</h5>
+          <table className="table">
              <tbody>
                <tr>
                  <td>Lunch</td>
@@ -22,7 +22,7 @@ const Footer = () => {
           </table>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-2">
+      <div className="col-lg-4 mb-2">
         <SocialMedia />
           <div className="footer-copyright text-center p-4">© 2021 Copyright:
             <a href=""> josiya.com</a>
@@ -31,21 +31,20 @@ const Footer = () => {
 
       {/* <SocialMedia /> */}
 
-      <div class="col-lg-3 col-md-6 mb-2">
+      <div className="col-lg-4 mb-2">
           {/* <h4>DELIVERY HOURS:</h4>
           <p>Mon: Pick Up Only</p>
           <p>Tue-Sat: 11:30 am - 9:00 pm</p>
           <p>Sun: 4:00 - 9:00 pm</p> */}
-          <h5 class="mb-1" >DELIVERY HOURS:</h5>
-          <table class="table">
+          <h5 className="mb-1" >DELIVERY HOURS:</h5>
+          <table className="table">
             <tbody>
              <tr>
                 <td>Mon: Pick Up Only</td>
-                
                </tr>
                <tr>
-               <td>Tue-Sat: 11:30 am - 9:00 pm</td>
-                 <td>Sun: 4:00 - 9:00 pm</td>
+                <td>Tue-Sat: 11:30 am - 9:00 pm</td>
+                <td>Sun: 4:00 - 9:00 pm</td>
               </tr>
              </tbody>
            </table>
