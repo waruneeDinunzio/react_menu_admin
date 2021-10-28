@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Restaurant menu management tool][product-screenshot]](Screen_shot_app1.png)
+![Restaurant menu management tool](Screen_shot_app1.png)
 This is a Capstone project, a final project for Software Engineer course at Per Scholas. It is a full stack application using React as a View layer, Spring boot for backend and connected with database using MySQL. This responsive Spring boot application based on MVC architecture. The application implement all CRUD operations, utilizing Entities, Controller classes, and Interfaces.
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description` -->
