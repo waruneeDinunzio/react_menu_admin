@@ -24,7 +24,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<!-- <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -47,7 +47,7 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
+</details> -->
 
 
 
@@ -55,8 +55,9 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+This is a Capstone project, a final project for Software Engineer course at Per Scholas. It is a full stack application using React as a View layer, Spring boot for backend and connected with database using MySQL. This responsive Spring boot application based on MVC architecture. The application implement all CRUD operations, utilizing Entities, Controller classes, and Interfaces.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description` -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -89,19 +90,21 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-3. Install NPM packages
+2. Open React file and Install NPM packages
    ```sh
    npm install
+   npm start
    ```
-4. Enter your API in `config.js`
-   ```js
+3. Run restaurant_menu_management_tool on SpringToolSuite4
+   <!-- ```js
    const API_KEY = 'ENTER YOUR API';
-   ```
+   ``` -->
+4. Create database and create Table menu
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -121,19 +124,19 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- [] Create user log in
+- [] Search food image from third party API and save for update menu image
+- [] Renden update menu on menu page
+- [] Order online
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+<!-- See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues). -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+<!-- ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -146,25 +149,25 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
 <!-- LICENSE -->
-## License
+<!-- ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
 <!-- CONTACT -->
-## Contact
+## Author
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Warunee Dinunzio - [linkedIn](https://www.linkedin.com/in/warunee-dinunzio/) - dinunziow@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/waruneeDinunzio/react_menu_admin](https://github.com/waruneeDinunzio/react_menu_admin)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -172,3 +175,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
+Thank you Per Scholas for creating this full stack Software Engineer course and gave me this oppunity.
+Thank you all instructor: Tory, Sonia, Teo, Aveline, Salah, Jade, Manara, ... 
+Thank you my fellow cohor 12 and 13. You're all awesome.
