@@ -572,3 +572,18 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-27 09:24:33.807
 !MESSAGE executing callback sts4.classpath.AaMfilPp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-29 06:54:07.555
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AaMfilPp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-29 06:54:07.556
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.AaMfilPp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-29 06:54:07.557
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-29 06:54:07.558
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AaMfilPp => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-10-29 06:54:07.926
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

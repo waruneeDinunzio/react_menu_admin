@@ -48,12 +48,10 @@ class ListMenu extends Component {
         return (
             <div>
                 <h2 className="text-center">Menus List</h2>
-                <div> 
+                <div className="row"> 
                     <button className="btn btn-primary" onClick={this.addMenu}> Add Menu</button>
                 </div>
-                <div>
-                    <p></p>
-                </div>
+                
                 <div className="row">
                     <table className="table table-striped table-bordered">
                         <thead>
